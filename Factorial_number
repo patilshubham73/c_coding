@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int factorial(int n);//function decleration
+int main()
+{
+	setvbuf(stdout,NULL,_IONBF,0);
+
+	int num,result;
+	printf("Enter the number::");
+	scanf("%d",&num);
+	result=factorial(num);//function call
+	printf("%d\n",result);
+	return 0;
+
+
+}
+int factorial(int n)
+{
+	int i,res=1;
+	for(i=1;i<n;i++)
+		res=res*i;
+
+	return res;
+}//function defination
