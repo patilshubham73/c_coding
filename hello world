@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() 
+{
+  char var='C';
+   char var1[]="Language";
+   char var2[]="Welcome To C!!";
+
+
+   //char var;
+   //char var1[20];
+   //char var2[50];
+
+   /*scanf("%c",var);
+    scanf("%s",var1);
+   scanf("%s",var2);*/
+   
+
+   printf("%c\n",var);
+   printf("%s\n",var1);
+   printf("%s",var2);
+ 
+
+
+
+    return 0;
+}
+
